@@ -1,0 +1,10 @@
+1. tìm substring của Z chứa tất cả kí tự của X và bảo toàn thứ tự trong Z -> X'
+2. phần còn lại từ 1 là Y'
+3. so sánh X vs X', Y vs Y'
+
+dùng đệ quy để tìm 1 và 2
+
+
+For example, given first = "abc" and second = "def",  third = "dabecf"  is a valid shuffle since it preserves the character ordering of the two strings. So, given these 3 strings write a function that detects whether third String is a valid shuffle of first and second String.
+
+example: X = ad, Y = ab, Z = abad
